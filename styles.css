@@ -176,7 +176,6 @@
 }
 
 /* Glassmorphism Card */
-/* Glassmorphism Card */
 .container .card {
   position: relative;
   width: 100%;
@@ -188,6 +187,18 @@
   border-top: 1px solid rgba(255, 255, 255, 0.5);
   border-left: 1px solid rgba(255, 255, 255, 0.5);
   backdrop-filter: blur(0.5rem);
+}
+
+.container .card .calc-wrapper img {
+  width: 70%; 
+  position:absolute; 
+  margin-left: 15%;
+  opacity: 1; 
+  transition: opacity 1s; 
+}
+
+.container .card:hover .calc-wrapper img{
+  opacity: .15; 
 }
 
 .container .card .content {
