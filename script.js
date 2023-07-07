@@ -1,13 +1,12 @@
 
 const speed = 0.01;
 const textItems = [
-  { id: "mysql", angle: 0 },
-  { id: "css", angle: (Math.PI * 2) / 7 },
-  { id: "bootstrap", angle: (Math.PI * 2) / 7 * 2 },
-  { id: "c-plus-plus", angle: (Math.PI * 2) / 7 * 3 },
-  { id: "html", angle: (Math.PI * 2) / 7 * 4 },
-  { id: "javascript", angle: (Math.PI * 2) / 7 * 5 },
-  { id: "python", angle: (Math.PI * 2) / 7 * 6 },
+  {id: "mysql", angle: 0 },
+  { id: "css", angle: (Math.PI * 2) / 6 },
+  { id: "bootstrap", angle: (Math.PI * 2) / 6 * 2 },
+  { id: "c-plus-plus", angle: (Math.PI * 2) / 6 * 3 },
+  { id: "html", angle: (Math.PI * 2) / 6 * 4 },
+  { id: "javascript", angle: (Math.PI * 2) / 6 * 5 },
 ];
 
 const circleContainer = document.getElementById("circle-container");
@@ -26,7 +25,7 @@ function updateDimensions() {
   } else {
     circleRadius = containerRect.height * 0.5;
     centerX = containerRect.width;
-    centerY = containerRect.height - circleRadius - 50;
+    centerY = containerRect.height - circleRadius + 80;
   }
 }
 
