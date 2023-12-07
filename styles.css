@@ -137,7 +137,7 @@
 /* For screens larger than 992px */
 @media (min-width: 992px) {
   .custom-mt {
-    margin-top: 10rem;
+    margin-top: 13rem;
   }
 }
 @media (min-width: 1200px) {
